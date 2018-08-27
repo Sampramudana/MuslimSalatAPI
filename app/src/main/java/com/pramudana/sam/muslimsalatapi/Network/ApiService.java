@@ -11,5 +11,5 @@ import retrofit2.http.GET;
 public interface ApiService {
 
     @GET("jakarta.json?key=d1aa7cdf5e8c0d2d7f1f47811497a732")
-    Call<Response> readJadwalSholat();
+    Call<com.pramudana.sam.muslimsalatapi.Model.Response> readJadwalSholat();
 }
